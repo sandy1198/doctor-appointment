@@ -2,11 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'auth',
+    path: '',
     loadChildren: () => import('./auth/auth.routes').then((m) => m.routes),
   },
   {
-    path: '',
+    path: 'home',
     loadChildren: () => import('./tabs/tabs.routes').then((m) => m.routes),
   },
 ];
