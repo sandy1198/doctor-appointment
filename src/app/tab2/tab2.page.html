@@ -32,7 +32,7 @@
       <ion-item>
         <ion-label position="stacked">Hospital</ion-label>
         <ion-select [formControl]="form.controls.hospital" interface="popover">
-          <ion-select-option *ngFor="let h of hospitals()" [value]="h">{{ h }}</ion-option>
+          <ion-select-option *ngFor="let h of hospitals()" [value]="h">{{ h }}</ion-select-option>
         </ion-select>
       </ion-item>
       <ion-note color="danger" *ngIf="form.controls.hospital.touched && form.controls.hospital.invalid" class="field-error">Hospital is required</ion-note>
