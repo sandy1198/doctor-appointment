@@ -4,6 +4,7 @@ export interface AuthUser {
   name?: string;
   email: string;
   phone?: string;
+  role: 'user' | 'doctor';
 }
 
 const STORAGE_KEY = 'auth_user';
@@ -24,9 +25,15 @@ export class AuthService {
   }
 
   signIn(email: string, password: string): boolean {
-    // Mock: accept any non-empty credentials; in real app, call backend
+    // Doctor login (default credentials)
+    if (email === 'doctor' && password === 'Admin@100') {
+      const doctor: AuthUser = { email: 'doctor', name: 'Doctor', role: 'doctor' };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(doctor));
+      return true;
+    }
+    // Mock user login: accept any non-empty credentials
     if (email && password) {
-      const user: AuthUser = { email };
+      const user: AuthUser = { email, role: 'user' };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
       return true;
     }
@@ -35,7 +42,7 @@ export class AuthService {
 
   signUp(data: { name: string; email: string; phone: string; password: string }): boolean {
     if (data.name && data.email && data.phone && data.password) {
-      const user: AuthUser = { name: data.name, email: data.email, phone: data.phone };
+      const user: AuthUser = { name: data.name, email: data.email, phone: data.phone, role: 'user' };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
       return true;
     }
