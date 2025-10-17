@@ -8,8 +8,8 @@
   <div class="auth-container">
     <ion-list class="auth-form-list">
       <ion-item>
-        <ion-label position="stacked">Email</ion-label>
-        <ion-input type="email" [formControl]="form.controls.email" placeholder="you@example.com"></ion-input>
+        <ion-label position="stacked">Email or Username</ion-label>
+        <ion-input type="text" [formControl]="form.controls.email" placeholder="you@example.com or doctor"></ion-input>
       </ion-item>
       <ion-note color="danger" *ngIf="form.controls.email.touched && form.controls.email.invalid" class="field-error">Valid email is required</ion-note>
 
