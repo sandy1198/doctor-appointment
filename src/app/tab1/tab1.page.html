@@ -1,17 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="home-container" *ngIf="user as u">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Welcome to the Doctor Appointment App</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="user-line" *ngIf="u.name">Name: {{ u.name }}</p>
+        <p class="user-line">Email: {{ u.email }}</p>
+        <div class="home-actions">
+          <ion-button expand="block" (click)="goToBook()">Book an Appointment</ion-button>
+          <ion-button expand="block" fill="outline" (click)="goToMyAppointments()">View My Appointments</ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>
