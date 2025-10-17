@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Sign up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="auth-container">
+    <ion-list class="auth-form-list">
+      <ion-item>
+        <ion-label position="stacked">Name</ion-label>
+        <ion-input type="text" [formControl]="form.controls.name" placeholder="Your name"></ion-input>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.name.touched && form.controls.name.invalid" class="field-error">Name is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input type="email" [formControl]="form.controls.email" placeholder="you@example.com"></ion-input>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.email.touched && form.controls.email.invalid" class="field-error">Valid email is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Phone</ion-label>
+        <ion-input type="tel" [formControl]="form.controls.phone" placeholder="Phone number"></ion-input>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.phone.touched && form.controls.phone.invalid" class="field-error">Valid phone number is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input type="password" [formControl]="form.controls.password" placeholder="Create password"></ion-input>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.password.touched && form.controls.password.invalid" class="field-error">Password must be at least 6 characters</ion-note>
+
+      <div class="actions-row">
+        <ion-button expand="block" (click)="onSubmit()" [disabled]="submitting">Create account</ion-button>
+      </div>
+
+      <div class="alt-action-row">
+        <a routerLink="/auth/signin">Already have an account? Sign in</a>
+      </div>
+    </ion-list>
+  </div>
+</ion-content>

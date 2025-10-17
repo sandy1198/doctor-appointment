@@ -1,17 +1,64 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title>Book an Appointment</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Book an Appointment</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="book-container">
+    <ion-list class="book-form-list">
+      <ion-item>
+        <ion-label position="stacked">District</ion-label>
+        <ion-select [formControl]="form.controls.district" interface="popover">
+          <ion-select-option *ngFor="let d of districts" [value]="d">{{ d }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.district.touched && form.controls.district.invalid" class="field-error">District is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">City</ion-label>
+        <ion-select [formControl]="form.controls.city" interface="popover">
+          <ion-select-option *ngFor="let c of cities()" [value]="c">{{ c }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.city.touched && form.controls.city.invalid" class="field-error">City is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Hospital</ion-label>
+        <ion-select [formControl]="form.controls.hospital" interface="popover">
+          <ion-select-option *ngFor="let h of hospitals()" [value]="h">{{ h }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.hospital.touched && form.controls.hospital.invalid" class="field-error">Hospital is required</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Date</ion-label>
+        <ion-datetime [min]="minDate" presentation="date" [formControl]="form.controls.date"></ion-datetime>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.date.touched && form.controls.date.invalid" class="field-error">Select a valid date (today or future)</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Time Slot</ion-label>
+        <ion-select [formControl]="form.controls.time" interface="popover">
+          <ion-select-option *ngFor="let t of timeSlots()" [value]="t">{{ fmt(t) }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.time.touched && form.controls.time.invalid" class="field-error">Select a time slot</ion-note>
+
+      <ion-item>
+        <ion-label position="stacked">Message (optional)</ion-label>
+        <ion-textarea auto-grow="true" [formControl]="form.controls.message" placeholder="Reason for appointment"></ion-textarea>
+      </ion-item>
+
+      <div class="actions-row">
+        <ion-button expand="block" (click)="submit()">Book Slot</ion-button>
+      </div>
+    </ion-list>
+  </div>
 </ion-content>
