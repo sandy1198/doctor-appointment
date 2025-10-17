@@ -1,0 +1,98 @@
+{
+  "state": "Tamil Nadu",
+  "districts": [
+    {
+      "district": "Chennai",
+      "cities": [
+        {
+          "city": "Chennai",
+          "governmentHospitals": [
+            "Rajiv Gandhi Government General Hospital",
+            "Government Stanley Hospital",
+            "Kilpauk Medical College Hospital",
+            "Institute of Child Health and Hospital for Children",
+            "Government Dental College and Hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Coimbatore",
+      "cities": [
+        {
+          "city": "Coimbatore",
+          "governmentHospitals": [
+            "Coimbatore Medical College Hospital",
+            "E.S.I Hospital Coimbatore",
+            "Government Women and Children Hospital"
+          ]
+        },
+        {
+          "city": "Pollachi",
+          "governmentHospitals": [
+            "District Headquarters Hospital Pollachi",
+            "Government Taluk Hospital Anaimalai"
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Madurai",
+      "cities": [
+        {
+          "city": "Madurai",
+          "governmentHospitals": [
+            "Government Rajaji Hospital",
+            "Government Arignar Anna Memorial Cancer Hospital",
+            "Government Hospital for Thoracic Medicine",
+            "Government Hospital for Women and Children"
+          ]
+        },
+        {
+          "city": "Melur",
+          "governmentHospitals": [
+            "Government Taluk Hospital Melur"
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tiruchirappalli",
+      "cities": [
+        {
+          "city": "Tiruchirappalli",
+          "governmentHospitals": [
+            "K.A.P. Viswanatham Government Medical College Hospital",
+            "Government ESI Hospital",
+            "Government Women and Children Hospital"
+          ]
+        },
+        {
+          "city": "Manapparai",
+          "governmentHospitals": [
+            "Government Taluk Hospital Manapparai"
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Salem",
+      "cities": [
+        {
+          "city": "Salem",
+          "governmentHospitals": [
+            "Government Mohan Kumaramangalam Medical College Hospital",
+            "Government ESI Hospital Salem",
+            "Government Women and Children Hospital Salem"
+          ]
+        },
+        {
+          "city": "Mettur",
+          "governmentHospitals": [
+            "Government Taluk Hospital Mettur"
+          ]
+        }
+      ]
+    }
+  ]
+}
