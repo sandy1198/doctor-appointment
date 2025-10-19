@@ -1,25 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardContent } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonList, IonItem, IonLabel } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { logOutOutline } from 'ionicons/icons';
+import { logOutOutline, shieldCheckmarkOutline, locationOutline, timeOutline, notificationsOutline, documentTextOutline } from 'ionicons/icons';
 import { AuthService, AuthUser } from '../auth/auth.service';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss'],
-  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardContent],
+  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, IonIcon, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonList, IonItem, IonLabel],
 })
-export class Tab1Page implements OnInit {
+export class Tab1Page {
   user: AuthUser | null = null;
 
   constructor(private auth: AuthService, private router: Router) {
-    addIcons({ logOutOutline });
+    addIcons({ logOutOutline, shieldCheckmarkOutline, locationOutline, timeOutline, notificationsOutline, documentTextOutline });
   }
 
-  ngOnInit(): void {
+  ionViewWillEnter(): void {
     this.user = this.auth.currentUser;
     if (!this.user) {
       this.router.navigateByUrl('/auth/signin');

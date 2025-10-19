@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>Home</ion-title>
     <ion-buttons slot="end">
       <ion-button aria-label="Logout" (click)="logout()">
@@ -11,7 +11,7 @@
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
+    <ion-toolbar color="primary">
       <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
@@ -19,13 +19,42 @@
   <div class="home-container" *ngIf="user as u">
     <ion-card>
       <ion-card-header>
-        <ion-card-title>Welcome to the Doctor Appointment App</ion-card-title>
+        <ion-card-title>Welcome to the Government Hospital Slot Booking System</ion-card-title>
       </ion-card-header>
       <ion-card-content>
-        <p class="user-line" *ngIf="u.name">Name: {{ u.name }}</p>
-        <p class="user-line">Email: {{ u.email }}</p>
+        <p class="user-line" *ngIf="u.name"><strong>Name:</strong> {{ u.name }}</p>
+        <p class="user-line"><strong>Email:</strong> {{ u.email }}</p>
+
+        <p class="intro-text">
+          Your one-stop solution to easily book appointments at government hospitals across Tamil Nadu.
+          Avoid long queues and schedule your hospital visit effortlessly from anywhere.
+        </p>
+
+        <ion-list lines="none" class="benefits-list">
+          <ion-item>
+            <ion-icon slot="start" color="primary" name="shield-checkmark-outline"></ion-icon>
+            <ion-label>100% verified Government Hospitals</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon slot="start" color="primary" name="location-outline"></ion-icon>
+            <ion-label>Search by District and City</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon slot="start" color="primary" name="time-outline"></ion-icon>
+            <ion-label>Real-time Slot Availability</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon slot="start" color="primary" name="notifications-outline"></ion-icon>
+            <ion-label>Instant Booking Confirmation</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon slot="start" color="primary" name="document-text-outline"></ion-icon>
+            <ion-label>View and Manage Appointments</ion-label>
+          </ion-item>
+        </ion-list>
+
         <div class="home-actions">
-          <ion-button expand="block" (click)="goToBook()">Book an Appointment</ion-button>
+          <ion-button expand="block" color="success" (click)="goToBook()">Book an Appointment</ion-button>
           <ion-button expand="block" fill="outline" (click)="goToMyAppointments()">View My Appointments</ion-button>
         </div>
       </ion-card-content>

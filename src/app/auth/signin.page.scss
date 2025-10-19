@@ -1,5 +1,9 @@
 .auth-container {
   padding: 16px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .auth-form-list {
@@ -22,4 +26,25 @@
 .general-error {
   margin-top: 8px;
   margin-left: 16px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 12px;
+}
+
+.brand-logo {
+  display: block;
+  width: 120px;
+  max-width: 50vw;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }

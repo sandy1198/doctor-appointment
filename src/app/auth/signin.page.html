@@ -1,32 +1,42 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>Sign in</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <div class="auth-container">
-    <ion-list class="auth-form-list">
-      <ion-item>
-        <ion-label position="stacked">Email or Username</ion-label>
-        <ion-input type="text" [formControl]="form.controls.email" placeholder="you@example.com or doctor"></ion-input>
-      </ion-item>
-      <ion-note color="danger" *ngIf="form.controls.email.touched && form.controls.email.invalid" class="field-error">Valid email is required</ion-note>
-
-      <ion-item>
-        <ion-label position="stacked">Password</ion-label>
-        <ion-input type="password" [formControl]="form.controls.password" placeholder="Enter password"></ion-input>
-      </ion-item>
-      <ion-note color="danger" *ngIf="form.controls.password.touched && form.controls.password.invalid" class="field-error">Password must be at least 6 characters</ion-note>
-
-      <div class="actions-row">
-        <ion-button expand="block" (click)="onSubmit()" [disabled]="submitting">Sign in</ion-button>
+    <div class="auth-card">
+      <div class="logo-center">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2Fd8f2fa1bc1034507a23ce1c06f366c74%2F6344d5e250b24e2696786854e0e80456?format=webp&width=800"
+          alt="Doctor Appointments logo"
+          class="brand-logo"
+        />
       </div>
-      <ion-note color="danger" *ngIf="errorMsg" class="general-error">{{ errorMsg }}</ion-note>
 
-      <div class="alt-action-row">
-        <a routerLink="/auth/signup">Create an account</a>
-      </div>
-    </ion-list>
+      <ion-list class="auth-form-list">
+        <ion-item>
+          <ion-label position="stacked">Email or Username</ion-label>
+          <ion-input type="text" [formControl]="form.controls.email" placeholder="you@example.com or doctor" (ionInput)="coerceEmail($event)"></ion-input>
+        </ion-item>
+        <ion-note color="danger" *ngIf="form.controls.email.touched && form.controls.email.invalid" class="field-error">Valid email is required</ion-note>
+
+        <ion-item>
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input type="password" [formControl]="form.controls.password" placeholder="Enter password"></ion-input>
+        </ion-item>
+        <ion-note color="danger" *ngIf="form.controls.password.touched && form.controls.password.invalid" class="field-error">Password must be at least 6 characters</ion-note>
+
+        <div class="actions-row">
+          <ion-button expand="block" (click)="onSubmit()" [disabled]="submitting">Sign in</ion-button>
+        </div>
+        <ion-note color="danger" *ngIf="errorMsg" class="general-error">{{ errorMsg }}</ion-note>
+
+        <div class="alt-action-row">
+          <a routerLink="/auth/signup">Create an account</a>
+        </div>
+      </ion-list>
+    </div>
   </div>
 </ion-content>

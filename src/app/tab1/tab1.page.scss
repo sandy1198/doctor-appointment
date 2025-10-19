@@ -4,10 +4,23 @@
 
 .user-line {
   margin: 4px 0;
+  color: #333;
 }
 
 .home-actions {
   display: grid;
   gap: 12px;
-  margin-top: 12px;
+  margin-top: 20px;
+}
+
+.intro-text {
+  margin: 10px 0 16px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.benefits-list ion-item {
+  --padding-start: 0;
+  font-size: 14px;
 }
