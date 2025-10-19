@@ -37,15 +37,15 @@
       </ion-item>
       <ion-note color="danger" *ngIf="form.controls.hospital.touched && form.controls.hospital.invalid" class="field-error">Hospital is required</ion-note>
 
-      <ion-item>
+      <ion-item button detail="false" (click)="openDatePicker()">
         <ion-label position="stacked">Date</ion-label>
-        <ion-datetime-button datetime="apptDate"></ion-datetime-button>
-        <ion-modal [keepContentsMounted]="true">
-          <ng-template>
-            <ion-datetime id="apptDate" [min]="minDate" presentation="date" [formControl]="form.controls.date"></ion-datetime>
-          </ng-template>
-        </ion-modal>
+        <ion-input readonly="true" [value]="form.controls.date.value ? (form.controls.date.value | date:'yyyy-MM-dd') : ''" placeholder="Select date"></ion-input>
       </ion-item>
+      <ion-modal [isOpen]="dateModalOpen" [keepContentsMounted]="true" (willDismiss)="closeDatePicker()">
+        <ng-template>
+          <ion-datetime [min]="minDate" presentation="date" [value]="form.controls.date.value" (ionChange)="onDateChange($event)"></ion-datetime>
+        </ng-template>
+      </ion-modal>
       <ion-note color="danger" *ngIf="form.controls.date.touched && form.controls.date.invalid" class="field-error">Select a valid date (today or future)</ion-note>
 
       <ion-item>
