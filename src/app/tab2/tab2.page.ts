@@ -3,7 +3,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonSelect, IonSelectOption, IonDatetime, IonTextarea, IonButton, IonNote } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonSelect, IonSelectOption, IonDatetime, IonDatetimeButton, IonModal, IonTextarea, IonButton, IonNote } from '@ionic/angular/standalone';
 import { AppointmentService } from '../appointments/appointment.service';
 import { AuthService } from '../auth/auth.service';
 
@@ -17,7 +17,7 @@ interface HospitalsData {
   standalone: true,
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
-  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonSelect, IonSelectOption, IonDatetime, IonTextarea, IonButton, IonNote]
+  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonSelect, IonSelectOption, IonDatetime, IonDatetimeButton, IonModal, IonTextarea, IonButton, IonNote]
 })
 export class Tab2Page implements OnInit {
   private data: HospitalsData | null = null;

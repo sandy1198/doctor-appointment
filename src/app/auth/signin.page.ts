@@ -28,6 +28,14 @@ export class SignInPage {
 
   constructor(private fb: FormBuilder, private auth: AuthService, private router: Router) {}
 
+  coerceEmail(ev: Event) {
+    const val = (ev as CustomEvent).detail?.value ?? '';
+    const lower = String(val).toLowerCase();
+    if (val !== lower) {
+      this.form.controls.email.setValue(lower, { emitEvent: false });
+    }
+  }
+
   async onSubmit() {
     this.errorMsg = '';
     if (this.form.invalid) {
