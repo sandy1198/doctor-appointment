@@ -9,7 +9,8 @@ import { AuthService } from '../auth/auth.service';
 
 interface HospitalsData {
   state: string;
-  districts: { district: string; cities: { city: string; governmentHospitals: string[] }[] }[];
+  generatedOn?: string;
+  districts: { district: string; cities: { city: string; governmentHospitals: { hospitalName: string; type: string; specialities: string[]; doctors: { name: string; specialisation: string }[] }[] }[] }[];
 }
 
 @Component({
@@ -25,11 +26,13 @@ export class Tab2Page implements OnInit {
   districts: string[] = [];
   cities = signal<string[]>([]);
   hospitals = signal<string[]>([]);
+  doctors = signal<{ name: string; specialisation: string }[]>([]);
 
   form = this.fb.nonNullable.group({
     district: ['', Validators.required],
     city: [{ value: '', disabled: true }, Validators.required],
     hospital: [{ value: '', disabled: true }, Validators.required],
+    doctor: [{ value: '', disabled: true }, Validators.required],
     date: ['', Validators.required],
     time: [{ value: '', disabled: true }, Validators.required],
     message: [''],
@@ -44,18 +47,43 @@ export class Tab2Page implements OnInit {
     this.form.controls.district.valueChanges.subscribe(d => {
       this.form.controls.city.enable();
       this.form.controls.city.reset('');
+
       this.form.controls.hospital.reset('');
       this.form.controls.hospital.disable();
+
+      this.form.controls.doctor.reset('');
+      this.form.controls.doctor.disable();
+
       const cities = this.getCitiesForDistrict(d || '');
       this.cities.set(cities);
+      this.hospitals.set([]);
+      this.doctors.set([]);
     });
 
     // React to city changes -> populate hospitals
     this.form.controls.city.valueChanges.subscribe(c => {
       this.form.controls.hospital.enable();
       this.form.controls.hospital.reset('');
+
+      this.form.controls.doctor.reset('');
+      this.form.controls.doctor.disable();
+
       const hospitals = this.getHospitalsForCity(this.form.controls.district.value || '', c || '');
       this.hospitals.set(hospitals);
+      this.doctors.set([]);
+    });
+
+    // React to hospital changes -> populate doctors
+    this.form.controls.hospital.valueChanges.subscribe(h => {
+      if (h) {
+        this.form.controls.doctor.enable();
+        const docs = this.getDoctorsForHospital(this.form.controls.district.value || '', this.form.controls.city.value || '', h || '');
+        this.doctors.set(docs);
+      } else {
+        this.form.controls.doctor.reset('');
+        this.form.controls.doctor.disable();
+        this.doctors.set([]);
+      }
     });
 
     // React to date changes -> enable time and generate slots
@@ -87,7 +115,15 @@ export class Tab2Page implements OnInit {
     if (!this.data) return [];
     const d = this.data.districts.find(x => x.district === district);
     const c = d?.cities.find(y => y.city === city);
-    return c ? c.governmentHospitals : [];
+    return c ? c.governmentHospitals.map(h => h.hospitalName) : [];
+  }
+
+  private getDoctorsForHospital(district: string, city: string, hospitalName: string): { name: string; specialisation: string }[] {
+    if (!this.data) return [];
+    const d = this.data.districts.find(x => x.district === district);
+    const c = d?.cities.find(y => y.city === city);
+    const h = c?.governmentHospitals.find(z => z.hospitalName === hospitalName);
+    return h ? h.doctors : [];
   }
 
   private generateSlots(): string[] {
@@ -128,7 +164,8 @@ export class Tab2Page implements OnInit {
       await this.router.navigateByUrl('/auth/signin');
       return;
     }
-    const { district, city, hospital, date, time, message } = this.form.getRawValue();
+    const { district, city, hospital, doctor, date, time, message } = this.form.getRawValue();
+    const selectedDoc = this.doctors().find(d => d.name === doctor) || null;
     this.appt.create({
       userEmail: u.email,
       userName: u.name,
@@ -138,6 +175,8 @@ export class Tab2Page implements OnInit {
       date: (typeof date === 'string' ? date : new Date(date).toISOString()).slice(0,10),
       time,
       message: message || undefined,
+      doctorName: doctor,
+      doctorSpecialisation: selectedDoc ? selectedDoc.specialisation : undefined,
     });
     await this.router.navigateByUrl('/tabs/tab3');
   }

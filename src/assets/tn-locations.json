@@ -1,17 +1,502 @@
 {
   "state": "Tamil Nadu",
+  "generatedOn": "2025-10-25T07:25:33.945054Z",
   "districts": [
+    {
+      "district": "Ariyalur",
+      "cities": [
+        {
+          "city": "Ariyalur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Ariyalur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Ariyalur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Jayankondam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Jayankondam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Jayankondam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Chengalpattu",
+      "cities": [
+        {
+          "city": "Chengalpattu",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Chengalpattu",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Chengalpattu",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Tambaram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tambaram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tambaram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "district": "Chennai",
       "cities": [
         {
           "city": "Chennai",
           "governmentHospitals": [
-            "Rajiv Gandhi Government General Hospital",
-            "Government Stanley Hospital",
-            "Kilpauk Medical College Hospital",
-            "Institute of Child Health and Hospital for Children",
-            "Government Dental College and Hospital"
+            {
+              "hospitalName": "Rajiv Gandhi Government General Hospital",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Stanley Medical College Hospital",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Kilpauk Medical College Hospital",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Ambattur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Ambattur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Ambattur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -22,16 +507,1401 @@
         {
           "city": "Coimbatore",
           "governmentHospitals": [
-            "Coimbatore Medical College Hospital",
-            "E.S.I Hospital Coimbatore",
-            "Government Women and Children Hospital"
+            {
+              "hospitalName": "Coimbatore Medical College Hospital",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "E.S.I Hospital Coimbatore",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Women and Children Hospital, Coimbatore",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            }
           ]
         },
         {
           "city": "Pollachi",
           "governmentHospitals": [
-            "District Headquarters Hospital Pollachi",
-            "Government Taluk Hospital Anaimalai"
+            {
+              "hospitalName": "District Headquarters Hospital, Pollachi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Pollachi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Cuddalore",
+      "cities": [
+        {
+          "city": "Cuddalore",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Cuddalore",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Cuddalore",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Chidambaram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Chidambaram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Chidambaram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Dharmapuri",
+      "cities": [
+        {
+          "city": "Dharmapuri",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Dharmapuri",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Dharmapuri",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Palacode",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Palacode",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Palacode",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Dindigul",
+      "cities": [
+        {
+          "city": "Dindigul",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Dindigul",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Dindigul",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Palani",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Palani",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Palani",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Erode",
+      "cities": [
+        {
+          "city": "Erode",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Erode",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Erode",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Bhavani",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Bhavani",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Bhavani",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Kallakurichi",
+      "cities": [
+        {
+          "city": "Kallakurichi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kallakurichi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kallakurichi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Sankarapuram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Sankarapuram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Sankarapuram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Kancheepuram",
+      "cities": [
+        {
+          "city": "Kancheepuram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kancheepuram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kancheepuram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Sriperumbudur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Sriperumbudur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Sriperumbudur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Karur",
+      "cities": [
+        {
+          "city": "Karur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Karur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Karur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Vallam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Vallam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Vallam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Krishnagiri",
+      "cities": [
+        {
+          "city": "Krishnagiri",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Krishnagiri",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Krishnagiri",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Hosur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Hosur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Hosur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -42,35 +1912,1401 @@
         {
           "city": "Madurai",
           "governmentHospitals": [
-            "Government Rajaji Hospital",
-            "Government Arignar Anna Memorial Cancer Hospital",
-            "Government Hospital for Thoracic Medicine",
-            "Government Hospital for Women and Children"
+            {
+              "hospitalName": "Government Rajaji Hospital, Madurai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Arignar Anna Memorial Cancer Hospital, Madurai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Hospital for Women and Children, Madurai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            }
           ]
         },
         {
           "city": "Melur",
           "governmentHospitals": [
-            "Government Taluk Hospital Melur"
+            {
+              "hospitalName": "District Headquarters Hospital, Melur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Melur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "district": "Tiruchirappalli",
+      "district": "Mayiladuthurai",
       "cities": [
         {
-          "city": "Tiruchirappalli",
+          "city": "Mayiladuthurai",
           "governmentHospitals": [
-            "K.A.P. Viswanatham Government Medical College Hospital",
-            "Government ESI Hospital",
-            "Government Women and Children Hospital"
+            {
+              "hospitalName": "District Headquarters Hospital, Mayiladuthurai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Mayiladuthurai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         },
         {
-          "city": "Manapparai",
+          "city": "Kuthalam",
           "governmentHospitals": [
-            "Government Taluk Hospital Manapparai"
+            {
+              "hospitalName": "District Headquarters Hospital, Kuthalam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kuthalam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Nagapattinam",
+      "cities": [
+        {
+          "city": "Nagapattinam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Nagapattinam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Nagapattinam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Kudavasal",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kudavasal",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kudavasal",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Namakkal",
+      "cities": [
+        {
+          "city": "Namakkal",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Namakkal",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Namakkal",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Tiruchengode",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tiruchengode",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tiruchengode",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "The Nilgiris",
+      "cities": [
+        {
+          "city": "Udhagamandalam (Ooty)",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Udhagamandalam (Ooty)",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Udhagamandalam (Ooty)",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Coonoor",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Coonoor",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Coonoor",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Perambalur",
+      "cities": [
+        {
+          "city": "Perambalur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Perambalur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Perambalur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Veppur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Veppur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Veppur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Pudukkottai",
+      "cities": [
+        {
+          "city": "Pudukkottai",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Pudukkottai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Pudukkottai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Alangudi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Alangudi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Alangudi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Ramanathapuram",
+      "cities": [
+        {
+          "city": "Ramanathapuram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Ramanathapuram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Ramanathapuram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Devipattinam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Devipattinam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Devipattinam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Ranipet",
+      "cities": [
+        {
+          "city": "Ranipet",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Ranipet",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Ranipet",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Arakkonam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Arakkonam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Arakkonam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -81,15 +3317,2202 @@
         {
           "city": "Salem",
           "governmentHospitals": [
-            "Government Mohan Kumaramangalam Medical College Hospital",
-            "Government ESI Hospital Salem",
-            "Government Women and Children Hospital Salem"
+            {
+              "hospitalName": "Government Mohan Kumaramangalam Medical College Hospital, Salem",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government ESI Hospital, Salem",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Women and Children Hospital, Salem",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            }
           ]
         },
         {
           "city": "Mettur",
           "governmentHospitals": [
-            "Government Taluk Hospital Mettur"
+            {
+              "hospitalName": "District Headquarters Hospital, Mettur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Mettur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Sivaganga",
+      "cities": [
+        {
+          "city": "Sivaganga",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Sivaganga",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Sivaganga",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Karaikudi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Karaikudi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Karaikudi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tenkasi",
+      "cities": [
+        {
+          "city": "Tenkasi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tenkasi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tenkasi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Shenkottai",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Shenkottai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Shenkottai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Thanjavur",
+      "cities": [
+        {
+          "city": "Thanjavur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Thanjavur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Thanjavur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Kumbakonam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kumbakonam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kumbakonam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Theni",
+      "cities": [
+        {
+          "city": "Theni",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Theni",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Theni",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Periyakulam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Periyakulam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Periyakulam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Thoothukudi",
+      "cities": [
+        {
+          "city": "Thoothukudi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Thoothukudi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Thoothukudi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Kovilpatti",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kovilpatti",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kovilpatti",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tiruchirappalli",
+      "cities": [
+        {
+          "city": "Tiruchirappalli",
+          "governmentHospitals": [
+            {
+              "hospitalName": "K.A.P. Viswanatham Government Medical College Hospital",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government ESI Hospital, Trichy",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Women and Children Hospital, Trichy",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                },
+                {
+                  "name": "Dr. L. Anand",
+                  "specialisation": "Obstetrics & Gynaecology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Manapparai",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Manapparai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Manapparai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tirunelveli",
+      "cities": [
+        {
+          "city": "Tirunelveli",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tirunelveli",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tirunelveli",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Palayamkottai",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Palayamkottai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Palayamkottai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tirupathur",
+      "cities": [
+        {
+          "city": "Tirupathur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tirupathur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tirupathur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Vaniyambadi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Vaniyambadi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Vaniyambadi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tiruppur",
+      "cities": [
+        {
+          "city": "Tiruppur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tiruppur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tiruppur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Kangeyam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kangeyam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kangeyam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tiruvallur",
+      "cities": [
+        {
+          "city": "Tiruvallur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tiruvallur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tiruvallur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Ponneri",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Ponneri",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Ponneri",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Tiruvannamalai",
+      "cities": [
+        {
+          "city": "Tiruvannamalai",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Tiruvannamalai",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Tiruvannamalai",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Polur",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Polur",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Polur",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Vellore",
+      "cities": [
+        {
+          "city": "Vellore",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Vellore",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Vellore",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Gudiyattam",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Gudiyattam",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Gudiyattam",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "district": "Viluppuram",
+      "cities": [
+        {
+          "city": "Viluppuram",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Viluppuram",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Viluppuram",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "city": "Kallakurichi",
+          "governmentHospitals": [
+            {
+              "hospitalName": "District Headquarters Hospital, Kallakurichi",
+              "type": "Government",
+              "specialities": [
+                "General Medicine",
+                "Cardiology",
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            },
+            {
+              "hospitalName": "Government Taluk Hospital, Kallakurichi",
+              "type": "Government",
+              "specialities": [
+                "Neurology",
+                "Orthopaedics",
+                "Paediatrics",
+                "Obstetrics & Gynaecology",
+                "General Surgery",
+                "ENT"
+              ],
+              "doctors": [
+                {
+                  "name": "Dr. S. Kumar",
+                  "specialisation": "General Medicine"
+                },
+                {
+                  "name": "Dr. R. Meena",
+                  "specialisation": "Cardiology"
+                },
+                {
+                  "name": "Dr. K. Ramesh",
+                  "specialisation": "Neurology"
+                },
+                {
+                  "name": "Dr. P. Sundar",
+                  "specialisation": "Orthopaedics"
+                },
+                {
+                  "name": "Dr. M. Lakshmi",
+                  "specialisation": "Paediatrics"
+                }
+              ]
+            }
           ]
         }
       ]

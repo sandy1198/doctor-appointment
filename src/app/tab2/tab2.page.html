@@ -37,6 +37,14 @@
       </ion-item>
       <ion-note color="danger" *ngIf="form.controls.hospital.touched && form.controls.hospital.invalid" class="field-error">Hospital is required</ion-note>
 
+      <ion-item>
+        <ion-label position="stacked">Doctor</ion-label>
+        <ion-select [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+          <ion-select-option *ngFor="let d of doctors()" [value]="d.name">{{ d.name }} — {{ d.specialisation }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-note color="danger" *ngIf="form.controls.doctor.touched && form.controls.doctor.invalid" class="field-error">Doctor is required</ion-note>
+
       <ion-item button detail="false" (click)="openDatePicker()">
         <ion-label position="stacked">Date</ion-label>
         <ion-input readonly="true" [value]="form.controls.date.value ? (form.controls.date.value | date:'yyyy-MM-dd') : ''" placeholder="Select date"></ion-input>
