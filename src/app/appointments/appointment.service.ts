@@ -9,6 +9,8 @@ export interface Appointment {
   district: string;
   city: string;
   hospital: string;
+  doctorName?: string;
+  doctorSpecialisation?: string;
   date: string; // ISO date (yyyy-mm-dd)
   time: string; // HH:mm
   message?: string;
