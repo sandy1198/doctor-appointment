@@ -18,11 +18,14 @@ export class Tab3Page implements OnInit {
   constructor(private appt: AppointmentService, private auth: AuthService) {}
 
   ngOnInit(): void {
-    const u = this.auth.currentUser;
-    this.isDoctor = !!u && u.role === 'doctor';
-    this.refresh();
+    
   }
 
+ionViewDidEnter() {
+  const u = this.auth.currentUser;
+    this.isDoctor = !!u && u.role === 'doctor';
+    this.refresh();
+}
   refresh() {
     const u = this.auth.currentUser;
     this.items.set(this.isDoctor ? this.appt.listAll() : (u ? this.appt.listMine(u.email) : []));
