@@ -16,6 +16,7 @@
       <ion-item *ngFor="let a of items()">
         <ion-label>
           <h3>{{ a.hospital }} — {{ a.city }}, {{ a.district }}</h3>
+          <p *ngIf="a.doctorName">Doctor: {{ a.doctorName }}<span *ngIf="a.doctorSpecialisation"> ({{ a.doctorSpecialisation }})</span></p>
           <p>Date: {{ a.date }} | Time: {{ a.time }}</p>
           <p *ngIf="a.message">Note: {{ a.message }}</p>
           <p *ngIf="isDoctor">Booked by: {{ a.userName || a.userEmail }}</p>
@@ -27,7 +28,7 @@
     <div class="doctor-actions" *ngIf="isDoctor">
       <ion-list>
         <ion-item *ngFor="let a of items()">
-          <ion-label>{{ a.hospital }} — {{ a.date }} {{ a.time }}</ion-label>
+          <ion-label>{{ a.hospital }} — {{ a.date }} {{ a.time }}<span *ngIf="a.doctorName"> — {{ a.doctorName }}</span></ion-label>
           <ion-button size="small" color="success" (click)="accept(a.id)" [disabled]="a.status === 'Accepted'">Accept</ion-button>
           <ion-button size="small" color="danger" (click)="reject(a.id)" [disabled]="a.status === 'Rejected'">Reject</ion-button>
         </ion-item>
