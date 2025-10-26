@@ -15,7 +15,7 @@
     <ion-list class="book-form-list">
       <ion-item>
         <ion-label position="stacked">District</ion-label>
-        <ion-select [formControl]="form.controls.district" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select [formControl]="form.controls.district" interface="popover" toggleIconSlot="end">
           <ion-select-option *ngFor="let d of districts" [value]="d">{{ d }}</ion-select-option>
         </ion-select>
       </ion-item>
@@ -23,7 +23,7 @@
 
       <ion-item>
         <ion-label position="stacked">City</ion-label>
-        <ion-select [formControl]="form.controls.city" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select [formControl]="form.controls.city" interface="popover" toggleIconSlot="end">
           <ion-select-option *ngFor="let c of cities()" [value]="c">{{ c }}</ion-select-option>
         </ion-select>
       </ion-item>
@@ -31,7 +31,7 @@
 
       <ion-item>
         <ion-label position="stacked">Hospital</ion-label>
-        <ion-select [formControl]="form.controls.hospital" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select [formControl]="form.controls.hospital" interface="popover" toggleIconSlot="end">
           <ion-select-option *ngFor="let h of hospitals()" [value]="h">{{ h }}</ion-select-option>
         </ion-select>
       </ion-item>
@@ -39,7 +39,7 @@
 
       <ion-item>
         <ion-label position="stacked">Doctor</ion-label>
-        <ion-select   interfaceOptions="{ cssClass: 'select-popover' }"  class="doctor-select" [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select   interfaceOptions="{ cssClass: 'select-popover' }"  class="doctor-select" [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end">
           <ion-select-option *ngFor="let d of doctors()" [value]="d.name">{{ d.specialisation }} - {{ d.name }}</ion-select-option>
         </ion-select>
       </ion-item>
@@ -58,7 +58,7 @@
 
       <ion-item>
         <ion-label position="stacked">Time Slot</ion-label>
-        <ion-select [formControl]="form.controls.time" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select [formControl]="form.controls.time" interface="popover" toggleIconSlot="end">
           <ion-select-option *ngFor="let t of timeSlots()" [value]="t">{{ fmt(t) }}</ion-select-option>
         </ion-select>
       </ion-item>

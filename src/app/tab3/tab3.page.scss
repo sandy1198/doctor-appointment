@@ -15,3 +15,20 @@ md ion-item h3 {
 :host ion-content {
   --background: #eaf5ff;
 }
+
+.appointment-item {
+  ion-label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  .complete-row {
+    margin-top: 6px;
+  }
+}
