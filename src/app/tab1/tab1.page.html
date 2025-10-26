@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar color="primary">
     <ion-title>Home</ion-title>
     <ion-buttons slot="end">
@@ -9,13 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar color="primary">
-      <ion-title size="large">Home</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content >
   <div class="home-container" *ngIf="user as u">
     <ion-card>
       <ion-card-header>

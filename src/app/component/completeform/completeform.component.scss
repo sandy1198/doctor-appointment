@@ -1,10 +1,16 @@
-.star-rating {
+.rating-item {
   display: flex;
-  font-size: 24px; /* Adjust size as needed */
-  --ionicon-color-warning: var(--ion-color-warning, #ffc409); /* Ensures yellow color is used */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
 }
 
 .star-icon {
+  font-size: 28px;
+  color: #ffb400; /* Zomato-style gold */
   cursor: pointer;
-  margin-right: 2px;
 }

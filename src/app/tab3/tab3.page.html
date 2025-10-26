@@ -22,10 +22,15 @@
                 <ion-label>View Prescription & Diagnosis</ion-label>
               </ion-item>
               <div class="ion-padding" slot="content">
-                <p *ngIf="a.diagnostic " ><strong>Diagnosis:</strong> {{ a.diagnostic }}</p>
+                <p *ngIf="a.diagnostic "><strong>Diagnosis:</strong> {{ a.diagnostic }}</p>
                 <p *ngIf=" a.prescription "><strong>Prescription:</strong> {{ a.prescription }}</p>
                 <p *ngIf="a.bp"><strong>BP:</strong> {{ a.bp }}</p>
                 <p *ngIf="a?.sugar"><strong>Sugar:</strong> {{ a.sugar }}</p>
+                <div *ngIf="!isDoctor && a.status === 'Completed'">
+                  <ion-button size="small" color="medium" (click)="feedback(a.id, a)">
+                    Give Feedback
+                  </ion-button>
+                </div>
               </div>
             </ion-accordion>
           </ion-accordion-group>

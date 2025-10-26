@@ -39,7 +39,7 @@
 
       <ion-item>
         <ion-label position="stacked">Doctor</ion-label>
-        <ion-select [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
+        <ion-select   interfaceOptions="{ cssClass: 'select-popover' }"  class="doctor-select" [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
           <ion-select-option *ngFor="let d of doctors()" [value]="d.name">{{ d.specialisation }} - {{ d.name }}</ion-select-option>
         </ion-select>
       </ion-item>

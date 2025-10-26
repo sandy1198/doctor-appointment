@@ -13,3 +13,18 @@
 .actions-row {
   margin-top: 16px;
 }
+
+:host ion-content {
+  --background: #eaf5ff;
+}
+
+.doctor-select::part(icon) {
+  color: #666;
+}
+
+.doctor-select ion-popover {
+  --width: 320px;
+}
+ion-popover.select-popover {
+  --width: 340px;
+}

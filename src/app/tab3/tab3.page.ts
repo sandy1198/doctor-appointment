@@ -48,6 +48,7 @@ ionViewDidEnter() {
       component: CompleteformComponent, // The new component
       componentProps: {
         appointmentId: id, // Pass the ID to the modal
+        isDoctor: true,
       },
       // Give the modal a reference so we can access its methods in the HTML
       id: 'complete-appointment-modal'
@@ -79,4 +80,24 @@ ionViewDidEnter() {
         return 'primary'; // Default color
     }
   }
+  async feedback(id: string, existingData: any) {
+  const modal = await this.modalCtrl.create({
+    component: CompleteformComponent,
+    componentProps: {
+      appointmentId: id,
+      isDoctor: false,
+      existingData: existingData
+    },
+    id: 'feedback-modal'
+  });
+
+  await modal.present();
+
+  const { data, role } = await modal.onWillDismiss();
+
+  if (role === 'complete' && data) {
+    this.appt.addFeedback(id, data); // you'll create this method in service
+    this.refresh();
+  }
+}
 }

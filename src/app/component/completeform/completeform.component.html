@@ -1,62 +1,83 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
-      <ion-button (click)="onCancel(modal)">Cancel</ion-button>
+      <ion-button (click)="onCancel()">Cancel</ion-button>
     </ion-buttons>
-    <ion-title>Complete Appointment</ion-title>
+    <ion-title>{{ isDoctor ? 'Complete Appointment' : 'Feedback' }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
   <form #form="ngForm">
     <ion-list>
-      <ion-item>
-        <ion-label position="floating">Diagnosis *</ion-label>
-        <ion-textarea 
-          rows="3" 
-          [(ngModel)]="formData.diagnostic" 
-          name="diagnostic" 
-          required
-        ></ion-textarea>
-      </ion-item>
 
-      <ion-item>
-        <ion-label position="floating">Prescription *</ion-label>
-        <ion-textarea 
-          rows="5" 
-          [(ngModel)]="formData.prescription" 
-          name="prescription" 
-          required
-        ></ion-textarea>
-      </ion-item>
+      <!-- Doctor Fields -->
+      <ng-container *ngIf="isDoctor">
+        <ion-item>
+          <ion-label position="floating">Diagnosis *</ion-label>
+          <ion-textarea
+            rows="3"
+            [(ngModel)]="formData.diagnostic"
+            name="diagnostic"
+            required
+          ></ion-textarea>
+        </ion-item>
 
-      <ion-item>
-        <ion-label position="floating">Blood Pressure (e.g., 120/80 mmHg)</ion-label>
-        <ion-input 
-          type="text" 
-          [(ngModel)]="formData.bp" 
-          name="bp"
-        ></ion-input>
-      </ion-item>
+        <ion-item>
+          <ion-label position="floating">Prescription *</ion-label>
+          <ion-textarea
+            rows="5"
+            [(ngModel)]="formData.prescription"
+            name="prescription"
+            required
+          ></ion-textarea>
+        </ion-item>
 
-      <ion-item>
-        <ion-label position="floating">Blood Sugar (e.g., 95 mg/dL)</ion-label>
-        <ion-input 
-          type="text" 
-          [(ngModel)]="formData.sugar" 
-          name="sugar"
-        ></ion-input>
-      </ion-item>
+        <ion-item>
+          <ion-label position="floating">Blood Pressure</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.bp" name="bp"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Blood Sugar</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.sugar" name="sugar"></ion-input>
+        </ion-item>
+      </ng-container>
+
+      <!-- User Fields (Feedback + Rating) -->
+      <ng-container *ngIf="!isDoctor">
+        <ion-item lines="none" class="rating-item">
+          <ion-label>Rating</ion-label>
+          <div class="stars">
+            <ion-icon
+              *ngFor="let star of [1,2,3,4,5]"
+              [name]="star <= formData.rating ? 'star' : 'star-outline'"
+              (click)="setRating(star)"
+              class="star-icon"
+            ></ion-icon>
+          </div>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Feedback</ion-label>
+          <ion-textarea
+            rows="3"
+            [(ngModel)]="formData.feedback"
+            name="feedback"
+            
+          ></ion-textarea>
+        </ion-item>
+      </ng-container>
+
     </ion-list>
 
     <div class="ion-padding-top">
-      <ion-button 
-        expand="block" 
-        color="primary" 
-        [disabled]="form.invalid" 
-        (click)="onComplete(modal)"
+      <ion-button
+        expand="block"
+        color="primary"
+        (click)="onComplete()"
       >
-        Save and Complete
+        {{ isDoctor ? 'Save and Complete' : 'Submit Feedback' }}
       </ion-button>
     </div>
   </form>

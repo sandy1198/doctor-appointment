@@ -1,8 +1,24 @@
-import { Component, Input, OnInit, signal } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, IonModal, IonItem, IonLabel, IonInput, IonTextarea,ModalController, IonList} from '@ionic/angular/standalone';
-
+import {
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+  IonContent,
+  IonButtons,
+  IonButton,
+  IonModal,
+  IonItem,
+  IonLabel,
+  IonInput,
+  IonTextarea,
+  ModalController,
+  IonList,
+  IonIcon
+} from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { star, starOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-completeform',
@@ -10,52 +26,61 @@ import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonButton, Ion
   styleUrls: ['./completeform.component.scss'],
   standalone: true,
   imports: [
-    CommonModule, 
-    FormsModule, 
-    IonHeader, 
-    IonToolbar, 
-    IonTitle, 
-    IonContent, 
-    IonButtons, 
-    IonButton, 
-    IonItem, 
+    CommonModule,
+    FormsModule,
+    IonHeader,
+    IonToolbar,
+    IonTitle,
+    IonContent,
+    IonButtons,
+    IonButton,
+    IonItem,
     IonList,
-    IonLabel, 
-    IonInput, 
+    IonLabel,
+    IonInput,
     IonTextarea,
+    IonIcon
   ],
 })
-export class CompleteformComponent  implements OnInit {
-@Input() appointmentId!: string;
-  
-  // Data model for the form
-  formData:any = {
+export class CompleteformComponent implements OnInit {
+  @Input() appointmentId!: string;
+  @Input() isDoctor = false;  // 👈 NEW FLAG
+  @Input() existingData: any; // 👈 to prefill when user gives feedback
+
+  formData: any = {
     diagnostic: '',
     prescription: '',
     bp: '',
-    sugar: ''
-
+    sugar: '',
+    feedback: '',
+    rating: 0
   };
-  // Used to control the modal (we'll inject the controller in Tab3Page)
-  constructor(
-    public modal : ModalController) {}
-  ngOnInit(): void {
+
+  constructor(public modalCtrl: ModalController) {
+    addIcons({ star, starOutline });
   }
 
-  // This method should be provided by the parent component (Tab3Page)
-  // when the modal is created, to handle closing and passing data.
-  // We'll use a placeholder here and rely on the ModalController methods in Tab3Page.
-  onCancel(modal: any) {
-    modal.dismiss(null, 'cancel');
+  ngOnInit(): void {
+    if (this.existingData) {
+      this.formData = { ...this.formData, ...this.existingData };
+    }
   }
-  onComplete(modal: any) {
-    // Basic validation
-    if (!this.formData.diagnostic || !this.formData.prescription) {
+
+  setRating(star: number) {
+    this.formData.rating = star;
+  }
+
+  onCancel() {
+    this.modalCtrl.dismiss(null, 'cancel');
+  }
+
+  onComplete() {
+    // doctor form validation
+    if (this.isDoctor && (!this.formData.diagnostic || !this.formData.prescription)) {
       alert('Diagnostic and Prescription are required.');
       return;
     }
 
-    // Dismiss the modal and pass the form data back
-    modal.dismiss(this.formData, 'complete');
+    this.modalCtrl.dismiss(this.formData, 'complete');
   }
 }

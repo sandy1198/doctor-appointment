@@ -90,4 +90,13 @@ export class AppointmentService {
       this.writeAll(all);
     }
   }
+  addFeedback(id: string, data: any) {
+  const all = this.listAll();
+  const index = all.findIndex(a => a.id === id);
+  if (index >= 0) {
+    all[index] = { ...all[index], ...data };
+    localStorage.setItem('appointments', JSON.stringify(all));
+  }
+}
+
 }
