@@ -1,0 +1,10 @@
+.star-rating {
+  display: flex;
+  font-size: 24px; /* Adjust size as needed */
+  --ionicon-color-warning: var(--ion-color-warning, #ffc409); /* Ensures yellow color is used */
+}
+
+.star-icon {
+  cursor: pointer;
+  margin-right: 2px;
+}

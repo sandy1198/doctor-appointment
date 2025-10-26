@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="onCancel(modal)">Cancel</ion-button>
+    </ion-buttons>
+    <ion-title>Complete Appointment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form #form="ngForm">
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Diagnosis *</ion-label>
+        <ion-textarea 
+          rows="3" 
+          [(ngModel)]="formData.diagnostic" 
+          name="diagnostic" 
+          required
+        ></ion-textarea>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Prescription *</ion-label>
+        <ion-textarea 
+          rows="5" 
+          [(ngModel)]="formData.prescription" 
+          name="prescription" 
+          required
+        ></ion-textarea>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Blood Pressure (e.g., 120/80 mmHg)</ion-label>
+        <ion-input 
+          type="text" 
+          [(ngModel)]="formData.bp" 
+          name="bp"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Blood Sugar (e.g., 95 mg/dL)</ion-label>
+        <ion-input 
+          type="text" 
+          [(ngModel)]="formData.sugar" 
+          name="sugar"
+        ></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <div class="ion-padding-top">
+      <ion-button 
+        expand="block" 
+        color="primary" 
+        [disabled]="form.invalid" 
+        (click)="onComplete(modal)"
+      >
+        Save and Complete
+      </ion-button>
+    </div>
+  </form>
+</ion-content>
