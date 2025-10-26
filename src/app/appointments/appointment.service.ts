@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-export type AppointmentStatus = 'Awaiting' | 'Accepted' | 'Rejected';
+export type AppointmentStatus = 'Awaiting' | 'Accepted' |  'Completed' | 'Rejected' ;
 
 export interface Appointment {
   id: string;
@@ -14,8 +14,12 @@ export interface Appointment {
   date: string; // ISO date (yyyy-mm-dd)
   time: string; // HH:mm
   message?: string;
-  status: AppointmentStatus;
+  status?: AppointmentStatus;
   createdAt: number;
+  diagnostic?: string;
+  prescription?: string;
+  bp?: string; // Optional
+  sugar?: string; // Optional
 }
 
 const STORAGE_KEY = 'appointments';
@@ -58,9 +62,31 @@ export class AppointmentService {
 
   updateStatus(id: string, status: AppointmentStatus): void {
     const all = this.readAll();
+    console.log(all);
+    
     const idx = all.findIndex((a) => a.id === id);
+    console.log(idx);
+    
     if (idx >= 0) {
       all[idx] = { ...all[idx], status };
+      console.log(all);
+      
+      this.writeAll(all);
+    }
+  }
+  completeAppointment(id: string, details: { diagnostic: string; prescription: string; bp?: string; sugar?: string; feedback?:string; rating?: any  }): void {
+    const all = this.readAll();
+    const idx = all.findIndex((a) => a.id === id);
+    
+    if (idx >= 0) {
+      all[idx] = { 
+        ...all[idx], 
+        status: 'Completed',
+        diagnostic: details.diagnostic,
+        prescription: details.prescription,
+        bp: details.bp,
+        sugar: details.sugar
+      };
       this.writeAll(all);
     }
   }

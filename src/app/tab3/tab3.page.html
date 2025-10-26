@@ -1,27 +1,39 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar color="primary">
     <ion-title>Appointments</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar color="primary">
-      <ion-title size="large">Appointments</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
 
   <div class="list-container">
     <ion-list>
-      <ion-item *ngFor="let a of items()">
+      <ion-item *ngFor="let a of items().reverse()">
         <ion-label>
           <h3>{{ a.hospital }} — {{ a.city }}, {{ a.district }}</h3>
           <p *ngIf="a.doctorName">Doctor: {{ a.doctorName }}<span *ngIf="a.doctorSpecialisation"> ({{ a.doctorSpecialisation }})</span></p>
           <p>Date: {{ a.date }} | Time: {{ a.time }}</p>
           <p *ngIf="a.message">Note: {{ a.message }}</p>
           <p *ngIf="isDoctor">Booked by: {{ a.userName || a.userEmail }}</p>
+          <div *ngIf="a.status === 'Completed' && a.diagnostic">
+          <ion-accordion-group>
+            <ion-accordion value="prescription">
+              <ion-item slot="header" color="light">
+                <ion-label>View Prescription & Diagnosis</ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <p *ngIf="a.diagnostic " ><strong>Diagnosis:</strong> {{ a.diagnostic }}</p>
+                <p *ngIf=" a.prescription "><strong>Prescription:</strong> {{ a.prescription }}</p>
+                <p *ngIf="a.bp"><strong>BP:</strong> {{ a.bp }}</p>
+                <p *ngIf="a?.sugar"><strong>Sugar:</strong> {{ a.sugar }}</p>
+              </div>
+            </ion-accordion>
+          </ion-accordion-group>
+        </div>
         </ion-label>
-        <ion-badge slot="end" [color]="a.status === 'Accepted' ? 'success' : a.status === 'Rejected' ? 'danger' : 'medium'">{{ a.status }}</ion-badge>
+        <ion-badge slot="end" [color]="getBadgeColor(a.status)"
+        >{{ a.status }}</ion-badge>
+      
       </ion-item>
     </ion-list>
 
@@ -29,8 +41,16 @@
       <ion-list>
         <ion-item *ngFor="let a of items()">
           <ion-label>{{ a.hospital }} — {{ a.date }} {{ a.time }}<span *ngIf="a.doctorName"> — {{ a.doctorName }}</span></ion-label>
-          <ion-button size="small" color="success" (click)="accept(a.id)" [disabled]="a.status === 'Accepted'">Accept</ion-button>
-          <ion-button size="small" color="danger" (click)="reject(a.id)" [disabled]="a.status === 'Rejected'">Reject</ion-button>
+          <ion-button size="small" color="success" (click)="accept(a.id)" [disabled]="a.status === 'Completed' || a.status === 'Accepted'">Accept</ion-button>
+          <ion-button size="small" color="danger" (click)="reject(a.id)" [disabled]=" a.status === 'Completed' || a.status === 'Accepted' ||a.status === 'Rejected'">Reject</ion-button>
+         <ion-button 
+            size="small" 
+            color="primary" 
+            (click)="complete(a.id)" 
+            [disabled]="a.status === 'Completed' || a.status !== 'Accepted' "
+            >
+            Complete
+          </ion-button>
         </ion-item>
       </ion-list>
     </div>

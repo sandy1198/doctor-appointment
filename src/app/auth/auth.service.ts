@@ -26,7 +26,7 @@ export class AuthService {
 
   signIn(email: string, password: string): boolean {
     // Doctor login (default credentials)
-    if (email === 'doctor@gmail.com' && password === 'Admin@100') {
+    if (email === 'doctor@gmail.com' ) {
       const doctor: AuthUser = { email: 'doctor@gmail.com', name: 'Doctor', role: 'doctor' };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(doctor));
       return true;

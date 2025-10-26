@@ -1,10 +1,10 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar color="primary">
     <ion-title>Book an Appointment</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content>
   <!-- <ion-header collapse="condense">
     <ion-toolbar color="primary">
       <ion-title size="large">Book an Appointment</ion-title>
@@ -40,7 +40,7 @@
       <ion-item>
         <ion-label position="stacked">Doctor</ion-label>
         <ion-select [formControl]="form.controls.doctor" interface="popover" toggleIconSlot="end" toggleIcon="chevron-down-outline">
-          <ion-select-option *ngFor="let d of doctors()" [value]="d.name">{{ d.name }} — {{ d.specialisation }}</ion-select-option>
+          <ion-select-option *ngFor="let d of doctors()" [value]="d.name">{{ d.specialisation }} - {{ d.name }}</ion-select-option>
         </ion-select>
       </ion-item>
       <ion-note color="danger" *ngIf="form.controls.doctor.touched && form.controls.doctor.invalid" class="field-error">Doctor is required</ion-note>
